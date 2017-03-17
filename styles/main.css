@@ -1,0 +1,76 @@
+* {
+  border: black solid;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+/********************************
+  HEADER
+**********************************/
+
+header {
+  /*width: 100%;*/
+  padding: 1.2%;
+}
+
+header h2, header nav {
+  width: 40%;
+  display: inline-block;
+}
+
+nav  {
+  float: right;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+
+/********************************
+  HERO
+**********************************/
+
+#hero {
+  text-align: center;
+}
+
+
+/********************************
+  ABOUT
+**********************************/
+#about h3, #about p {
+  display: inline-block;
+}
+
+#about h3 {
+  width: 25%;
+  background-image: url("http://fillmurray.com/300/300");
+  background-size: 30%;
+  height: 300px;
+}
+
+#about div {
+  float: right;
+  display: inline-block;
+  width: 40%;
+}
+
+#about {
+  vertical-align: middle;
+}
